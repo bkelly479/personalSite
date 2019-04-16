@@ -7,8 +7,13 @@ a {
 }
 
 .carousel-inner{
-    max-height: 30em;
+    max-height: 100%;
     margin: 0 auto;
+}
+
+#aboutCarousel .carousel-inner{
+  max-height: 10em;
+  margin: 0 auto;
 }
 
 
@@ -20,6 +25,7 @@ img{
   max-width: 100%;
   max-height: 100%;
 }
+
 #mePic{
   width: 75%;
 }

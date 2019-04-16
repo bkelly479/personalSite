@@ -16,11 +16,13 @@ html(lang='en')
         span.navbar-toggler-icon
       #navbarNavAltMarkup.collapse.navbar-collapse
         .navbar-nav
-          a.nav-item.nav-link.active(href='#')
+          a.nav-item.nav-link.active(href='/')
             | Home
             span.sr-only (current)
+          a.nav-item.nav-link(href='/about') About
           a.nav-item.nav-link(href='Brendan_Kelly_Resume-Jan2019.pdf') Resume
           a.nav-item.nav-link(href='https://github.com/bkelly479') GitHub
+
 
 
 
@@ -29,16 +31,16 @@ html(lang='en')
         li.active(data-target='#imageCarousel', data-slide-to='0')
         li(data-target='#imageCarousel', data-slide-to='1')
         li(data-target='#imageCarousel', data-slide-to='2')
-        li(data-target='#imageCarousel', data-slide-to='3')
+        //li(data-target='#imageCarousel', data-slide-to='3')
       .carousel-inner
         .carousel-item.active
-          img.d-block.w-100(src='images/homePagePic1.jpg', alt='First slide', id='img1')
+          img.d-block.w-100(src='images/carPic1.jpg', alt='First slide', id='img1')
         .carousel-item
-          img.d-block.w-100(src='images/homePagePic2.jpg', alt='Second slide', id='img2')
+          img.d-block.w-100(src='images/carPic2.jpg', alt='Second slide', id='img2')
         .carousel-item
-          img.d-block.w-100(src='images/homePagePic3.jpg', alt='Third slide', id='img3')
-        .carousel-item
-          img.d-block.w-100(src='images/homePagePic4.jpg', alt='Fourth slide', id='img4')
+          img.d-block.w-100(src='images/carPic3.jpg', alt='Third slide', id='img3')
+        //.carousel-item
+          //img.d-block.w-100(src='images/homePic4.jpg', alt='Fourth slide', id='img4')
       a.carousel-control-prev(href='#imageCarousel', role='button', data-slide='prev')
         span.carousel-control-prev-icon(aria-hidden='true')
         span.sr-only Previous
@@ -46,19 +48,19 @@ html(lang='en')
         span.carousel-control-next-icon(aria-hidden='true')
         span.sr-only Next
 
-    .container
-      .jumbotron.bg-light.text-secondary(id='pitch')
-        .container-fluid
-          .row
-            .col-lg-6
-              img(src='images/mePic.jpg', alt='Personal Picture', id='mePic')
-            .col-lg-6
-              h2(id='descriptionTitle')  About Me
-              p(id='description')
-                | I am a Computer Science student at Marist College in
-                | Poughkeepsie New York. I'm interested in art, photography, and music.
-                | I currently work at the Marist College Postal Solutions Center and
-                | am set to graduate in May 2020.
+    //.container
+      //.jumbotron.bg-light.text-secondary(id='pitch')
+        //.container-fluid
+          //.row
+            //.col-lg-6
+              //img(src='images/mePic.jpg', alt='Personal Picture', id='mePic')
+            //.col-lg-6
+              //h2(id='descriptionTitle')  About Me
+              //p(id='description')
+                //| I am a Computer Science student at Marist College in
+                //| Poughkeepsie New York. I'm interested in art, photography, and music.
+                //| I currently work at the Marist College Postal Solutions Center and
+                //| am set to graduate in May 2020.
 
 
 
